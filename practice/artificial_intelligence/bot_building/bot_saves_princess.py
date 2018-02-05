@@ -1,4 +1,3 @@
-# Head begins here
 ROBOT = 'm'
 PRINCESS = 'p'
 
@@ -27,14 +26,14 @@ def path_between(from_square, to_square):
 def get_path_to_princess(grid):
     robot_square = find(ROBOT, grid)
     princess_square = find(PRINCESS, grid)
-    return path_between(robot_square, princess_square):
+    return path_between(robot_square, princess_square)
 
-# Tail begins here
-size = input()
+def main():
+    size = input()
+    grid = [[j for j in raw_input().strip()] for i in xrange(size)]
 
-grid = []
-for i in xrange(0, size):
-    grid.append(raw_input().strip())
+    for move in get_path_to_princess(grid):
+        print move
 
-for move in get_path_to_princess(grid):
-    print move
+if __name__ == "__main__":
+    main()
