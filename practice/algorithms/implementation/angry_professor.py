@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 CANCELLED = "YES"
 NOT_CANCELLED = "NO"
 

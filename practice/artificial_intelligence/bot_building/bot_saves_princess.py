@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 ROBOT = 'm'
 PRINCESS = 'p'
 

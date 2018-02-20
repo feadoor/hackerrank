@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def candles_blown_out(candle_heights):
     return candle_heights.count(max(candle_heights))
 

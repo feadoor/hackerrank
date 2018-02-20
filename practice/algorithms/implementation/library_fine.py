@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import namedtuple
 
 Date = namedtuple('Date', ['day', 'month', 'year'])

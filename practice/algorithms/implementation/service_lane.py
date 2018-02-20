@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def read_space_separated_integers():
     return map(int, raw_input().strip().split(' '))
 

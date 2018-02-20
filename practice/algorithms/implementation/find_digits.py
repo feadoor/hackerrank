@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def digits(n):
     return map(int, str(n))
 

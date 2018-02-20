@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import defaultdict
 
 def divisible_sum_pairs(arr, divisor):

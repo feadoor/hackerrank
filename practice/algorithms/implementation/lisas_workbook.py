@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def special_problems(chapters, per_page):
     current_chapter, current_problem, current_page = 0, 1, 1
     special_problems = 0

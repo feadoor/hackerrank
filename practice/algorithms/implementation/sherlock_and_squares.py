@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from math import sqrt, floor
 
 def integer_sqrt(n):

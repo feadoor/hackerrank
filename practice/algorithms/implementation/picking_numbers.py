@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import Counter
 
 def size_of_best_pick(arr):

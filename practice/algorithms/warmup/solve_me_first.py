@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def main():
     x, y = input(), input()
     print x + y

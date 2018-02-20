@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 AM = 'AM'
 PM = 'PM'
 

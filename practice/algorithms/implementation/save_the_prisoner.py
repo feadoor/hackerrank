@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def dead_prisoner(prisoners, sweets, starting_idx):
     prisoner_idx = (starting_idx + sweets - 1) % prisoners
     return prisoner_idx if prisoner_idx > 0 else prisoners

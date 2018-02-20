@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 UP = 'U'
 DOWN = 'D'
 

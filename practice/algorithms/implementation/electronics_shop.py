@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from itertools import product
 
 def get_best_spend(keyboards, usbs, max_spend):

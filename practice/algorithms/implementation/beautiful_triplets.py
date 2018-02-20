@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def beautiful_triplets(arr, d):
     numbers = set(arr)
     return sum(1 for x in arr if x + d in numbers and x + 2 * d in numbers)

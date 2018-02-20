@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def read_reverse_permutation(size):
     reverse_perm = {n : 0 for n in xrange(1, size + 1)}
     for ix, val in enumerate(map(int, raw_input().strip().split(' '))):

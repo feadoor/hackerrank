@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 INVALID = "INVALID RANGE"
 
 def split(n):

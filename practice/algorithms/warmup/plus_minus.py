@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from __future__ import division
 
 def array_statistics(arr):

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def reversed(n):
     return int(str(n)[::-1])
 

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 PRINCESS = 'p'
 
 UP = 'UP'

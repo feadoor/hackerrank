@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def count_subsequences_of_length_summing_to(arr, length, target):
     def sum_of_subsequence_at(ix):
         return sum(arr[ix:ix + length])

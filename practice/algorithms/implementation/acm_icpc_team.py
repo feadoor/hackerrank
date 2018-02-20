@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def best_teams(contestants):
     topics_count, teams_count = 0, 0
     for (ix, contestant_1) in enumerate(contestants):

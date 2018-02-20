@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def get_absolute_permutation(length, difference):
     if difference == 0:
         for x in xrange(1, length + 1):

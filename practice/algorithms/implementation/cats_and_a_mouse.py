@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 CAT_A = "Cat A"
 CAT_B = "Cat B"
 MOUSE = "Mouse C"

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def calculate_actual_bill(items, skipped_idx):
     return (sum(items) - items[skipped_idx]) / 2
 

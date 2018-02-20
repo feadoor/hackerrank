@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def is_leap_year_julian(year):
     return year % 4 == 0
 

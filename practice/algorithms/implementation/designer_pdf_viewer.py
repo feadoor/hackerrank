@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from string import ascii_lowercase
 
 def get_selected_area(word, letter_heights):

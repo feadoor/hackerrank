@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def main():
     size = input()
     for steps in xrange(1, size + 1):

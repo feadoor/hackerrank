@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def total_likes(days):
     total, liked_on_day = 0, 2
     for _ in xrange(days):

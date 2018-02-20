@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 NONE = "no answer"
 
 def next_permutation(string):

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def is_safe(position, clouds):
     return position < len(clouds) and not clouds[position]
 

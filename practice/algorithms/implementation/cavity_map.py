@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def in_bounds(size, row, col):
     return 0 <= row < size and 0 <= col < size
 

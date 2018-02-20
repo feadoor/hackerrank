@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import defaultdict
 
 def minimum_difference(indices):

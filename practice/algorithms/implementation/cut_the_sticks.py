@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def perform_cut(arr):
     cut_length = min(arr)
     return [x - cut_length for x in arr if x > cut_length]

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def main():
     size = input()
     array = map(int, raw_input().strip().split(' '))

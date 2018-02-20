@@ -1,6 +1,7 @@
+#!/usr/local/bin/pypy
+
 from itertools import permutations
 
-# Head begins here
 UP = 'UP'
 DOWN = 'DOWN'
 LEFT = 'LEFT'

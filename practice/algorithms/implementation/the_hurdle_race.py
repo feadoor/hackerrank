@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def number_of_beverages_needed(max_height, hurdles):
     highest_hurdle = max(hurdles)
     return highest_hurdle - max_height if highest_hurdle > max_height else 0

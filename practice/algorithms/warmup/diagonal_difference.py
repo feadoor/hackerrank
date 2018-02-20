@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def forward_diagonal_sum(matrix):
     return sum(matrix[ix][ix] for ix in xrange(len(matrix)))
 

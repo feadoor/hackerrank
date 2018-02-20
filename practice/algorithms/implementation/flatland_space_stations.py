@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def maximum_distance_to_station(stations, city_size):
     sorted_stations = sorted(stations)
     if len(stations) > 1:

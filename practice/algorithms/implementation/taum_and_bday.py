@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def effective_cost(actual, other, conversion):
     return min(actual, other + conversion)
 

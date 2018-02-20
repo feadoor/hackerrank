@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def factorial(n):
     return reduce(lambda x, y: x * y, xrange(1, n + 1))
 

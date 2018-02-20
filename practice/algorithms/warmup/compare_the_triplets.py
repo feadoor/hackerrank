@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def comparison_points(score_a, score_b):
     return sum(x > y for x, y in zip(score_a, score_b))
 

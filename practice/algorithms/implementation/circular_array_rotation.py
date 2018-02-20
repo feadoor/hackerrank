@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def adjusted_value(arr, rotations, query_index):
     adjusted_index = (query_index - rotations) % len(arr)
     return arr[adjusted_index]

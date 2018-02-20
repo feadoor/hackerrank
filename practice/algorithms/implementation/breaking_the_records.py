@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def is_high_score(prev, curr):
     return curr > prev
 

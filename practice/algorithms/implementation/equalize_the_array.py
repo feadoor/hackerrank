@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import Counter
 
 def required_deletions(arr):

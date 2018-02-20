@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def is_within_house(house, tree_position, fruit_delta):
     return house[0] <= tree_position + fruit_delta <= house[1]
 

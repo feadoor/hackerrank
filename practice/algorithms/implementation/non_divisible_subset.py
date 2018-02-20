@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def complementary_pairs(modulus):
     return [(0, 0)] + [(x, modulus - x) for x in xrange(1, modulus / 2 + 1)]
 

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from copy import deepcopy
 
 NONE = "NO"

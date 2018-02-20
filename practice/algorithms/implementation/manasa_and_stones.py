@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def all_final_stones(stones, a, b):
     a, b = min(a, b), max(a, b)
     if a == b:

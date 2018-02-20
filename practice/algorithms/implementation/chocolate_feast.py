@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def number_of_chocolates(money, price, offer):
     chocolates = money / price
     wrappers = chocolates

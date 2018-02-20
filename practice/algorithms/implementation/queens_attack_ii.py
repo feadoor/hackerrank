@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 from collections import namedtuple
 from itertools import takewhile
 

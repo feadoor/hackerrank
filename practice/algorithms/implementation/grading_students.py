@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def rounded_grade(grade):
     if grade < 38 or grade % 5 < 3:
         return grade

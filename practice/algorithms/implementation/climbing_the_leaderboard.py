@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def uniq(arr):
     seen, unique = set(), []
     for x in arr:

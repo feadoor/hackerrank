@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def height_after_cycles(n_cycles):
     full_cycles = n_cycles / 2
     summer_height = (1 << (full_cycles + 1)) - 1

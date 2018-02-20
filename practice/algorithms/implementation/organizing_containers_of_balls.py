@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 POSSIBLE = "Possible"
 IMPOSSIBLE = "Impossible"
 

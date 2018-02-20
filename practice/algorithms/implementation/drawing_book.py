@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def page_turns_from_front(target_page):
     return target_page / 2
 

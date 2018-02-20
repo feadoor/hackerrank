@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def get_counter(t):
     block = 3
     while block < t:

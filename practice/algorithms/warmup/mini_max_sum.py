@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 def minimum_sum(arr):
     return sum(arr) - max(arr)
 

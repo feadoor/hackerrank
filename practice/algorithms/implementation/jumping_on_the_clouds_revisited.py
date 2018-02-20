@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 START_ENERGY = 100
 
 def final_energy(clouds, jump_size):

@@ -1,3 +1,5 @@
+#!/usr/local/bin/pypy
+
 YES = 'YES'
 NO = 'NO'
 
